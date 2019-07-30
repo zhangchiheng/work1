@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../img/banner.jpg)center top fixed;
+    text-align: center;
+    width: auto;
+}
+li{
+	list-style: none;
+}
+.header{
+	background:gray ;
+	display: flex;
+	justify-content: space-between;
+	height: 130px;
+}
+.img{
+	
+	width: 50px;
+	float: left;
+	margin-top: 8px;
+	margin-left: 50px;	
+}
+.img:hover{
+	animation: run 1s;
+}
+.wuxu{
+	
+	list-style:none;
+	display: flex;
+	/*justify-content: space-between;*/
+	float: right;
+	justify-content: ;
+	
+	/*margin-top:25px ;*/ 
+	border: 1px  solid transparent ;
+	color: white;	
+}
+.wuxu ul{
+	/*margin-right:150px;*/
+}
+.wuxu ul li{
+	float: left;
+	list-style:none;
+	padding: 28px;
+	border: 1px  solid transparent ;
+	
+}
+.wuxu ul li:hover{
+	box-sizing:border-box;
+	color: black;
+	border: 1px solid white ;
+	transition:  1s ease;
+}
+
+
+.fanzhuan{
+	 
+	/*position: relative;*/                            
+	/*clear: both;
+	width: 900px;*/
+	/*text-align: center;*/
+	margin-left: 100px;
+	display: flex;
+}
+.aside{
+	/*clear: both;*/ 	
+	/*float: left;*/
+	position: relative;	
+	width:220px;
+	height: 400px;
+	margin: 30px;
+	background: deepskyblue;
+	/*margin-left: 180px;*/
+	
+	/*display:flex ;*/
+	background: url(../img/gg.PNG);
+	background-size:100% 100% ;
+	opacity: .8;
+	transform-style: preserve-3d;
+	transition: 1s;
+}
+.aside:hover{
+	transform:  rotateY(180deg);
+}
+
+.aside:hover{
+	transform: rotateY(180px);
+}
+.asideong{
+	height: 500px;
+	width: 00px;
+	background: rgba(125,125,125 0.1);
+	
+}
+.top{
+	position:fixed ;
+	right: 20px;
+	bottom: 20px;
+	padding: 5px;
+	color: white;
+	border: 1px solid transparent;
+	background: transparent;
+}
+.top:hover{
+	border: 1px solid white;
+	color: #000000;
+	transition: 1s ;
+}
+@keyframes run{
+	0%{
+		transform: rotate(0deg);
+	}
+	10%{
+		transform: rotate(-30deg);
+	}
+	20%{
+		transform: rotate(30deg);
+	}
+	30%{
+		transform: rotate(-20deg);
+	}
+	40%{
+		transform: rotate(20deg);
+	}
+	50%{
+		transform: rotate(-15deg);
+	}
+	60%{
+		transform: rotate(15deg);
+	}
+	70%{
+		transform: rotate(-10deg);
+	}
+	80%{
+		transform: rotate(5deg);
+	}
+	90%{
+		transform: rotate(-5deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
